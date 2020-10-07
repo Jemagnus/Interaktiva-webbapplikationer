@@ -5,12 +5,15 @@
 }
 
 body {
+    padding-top: 115px;
     background: f0f0f0;
     font: 14px;
     font-family: Arial;
     color: #555;
     margin: 0;
     background: rgb(228, 228, 228);
+    min-height: 100%;
+    height: 100%;
 }
 
 a{
@@ -77,15 +80,16 @@ nav ul li{
     background-size: cover;
 }
 
+
 .divider{
     background: white;
     width: 100%;
     height: 50px;
     box-shadow: 0 0 15px -3px rgba(0,0,0,0.75);
-    border-radius: 5px;
     }
 
 section{
+    float: left;
     width: 60%;
     margin: 10px 20%;
     padding: 10px 0;
@@ -109,6 +113,7 @@ p{
 }
 
 footer{
+    bottom: 0;
     width: 100%;
     background: #333;
     text-align: center;
@@ -137,7 +142,7 @@ ul.sociallist li {
     display: inline;
 }
 
-#youtubeimg{
+.iconimg{
     width: 60px;
     height: 60px;
     margin-bottom: 10px;
@@ -146,4 +151,104 @@ ul.sociallist li {
 #footerlogo{
     width: 200px; 
     height: 200px;
+}
+
+.teamspagesection{
+    margin-top: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+.partnerpagesection{
+    width: 29%;
+    margin: 2%;
+}
+
+.partnerpagesection img{
+    padding-top: 40px;
+    max-height: 80px;
+}
+.partnerpagesection p{
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 50px;
+}
+
+
+
+.playerprofile {
+    width: 20%;
+    float: left;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+
+.playerprofile img {
+    width: auto;
+    width: 185px;
+    height: 300px;
+    
+    box-shadow: 0 0 10px -3px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+#nafpic{
+    background: url("img/cs/naf.png") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#eligepic{
+    background: url("img/cs/elige.png") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#stewpic{
+    background: url("img/cs/Stew.png"), no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#twistzzpic{
+    background: url("img/cs/twistzz.png") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#grimpic{
+    background: url("img/cs/grim.png") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#impactpic{
+    background: url("img/lol/impact.jpg") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#broxahpic{
+    background: url("img/lol/broxah.jpg") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#jensenpic{
+    background: url("img/lol/jensen.jpg") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#tacticalpic{
+    background: url("img/lol/tactical.jpg") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+#corejjpic{
+    background: url("img/lol/corejj.jpg") no-repeat center;
+    height: 300px;
+    width: 170px;
+}
+
+.active{
+    text-decoration: underline;
+}
+
+@media only screen and (max-widht: 812px) {
+
 }
